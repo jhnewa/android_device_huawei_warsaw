@@ -29,6 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
 
+TARGET_AOSP_BASED := true
+
 # Inherit from prague device
 $(call inherit-product, device/huawei/prague/device.mk)
 
